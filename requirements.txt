@@ -1,0 +1,18 @@
+# Core (tested with Python 3.12 and the versions in comments)
+numpy>=1.26          # 2.5.3
+pandas>=2.1          # 3.0.6
+scipy>=1.11          # 1.18.1
+scikit-learn>=1.4    # 1.9.1
+matplotlib>=3.8      # 3.11.2
+joblib>=1.3          # 1.6.0
+
+# Optional models / experiments (the pipeline degrades gracefully without them)
+xgboost>=2.0         # 3.4.1
+imbalanced-learn>=0.12   # 0.14.2  (SMOTE experiment)
+shap>=0.44           # 0.52.0  (SHAP plot in notebook 02)
+
+# Notebooks and tests
+ipykernel>=6
+nbconvert>=7
+jupyterlab>=4
+pytest>=8

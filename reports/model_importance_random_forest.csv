@@ -1,0 +1,48 @@
+,importance
+Contract_Month-to-month,0.20582015117349428
+tenure,0.13093413931200665
+OnlineSecurity_No,0.09215601978037989
+TechSupport_No,0.07406546185449397
+TotalCharges,0.07404179265318347
+InternetService_Fiber optic,0.07393116705765149
+tenure_group_0-12,0.054935648312223494
+avg_monthly_spend,0.05283449984147993
+MonthlyCharges,0.050549758528271996
+PaymentMethod_Electronic check,0.03824874623817953
+Contract_Two year,0.017985052287261362
+InternetService_DSL,0.016605852433888586
+Contract_One year,0.009960676246558338
+OnlineBackup_No,0.009408792394272869
+PaperlessBilling_Yes,0.007712631485503987
+tenure_group_49-72,0.00621521623398961
+OnlineSecurity_Yes,0.006073050802731287
+service_count,0.004831633922935524
+MultipleLines_Yes,0.004693745774648826
+addon_count,0.004628681392799192
+TechSupport_Yes,0.004549864241623828
+MultipleLines_No,0.0038887321064089977
+OnlineBackup_No internet service,0.003667982937944732
+OnlineSecurity_No internet service,0.0035701573241423905
+StreamingMovies_Yes,0.0034681509122846746
+DeviceProtection_No,0.003324944365569753
+StreamingTV_Yes,0.003099462882358192
+StreamingTV_No,0.0029013478167100428
+SeniorCitizen_Yes,0.0028371124342903855
+gender_Male,0.00272907979969273
+DeviceProtection_No internet service,0.0025457247571555497
+StreamingMovies_No,0.0025391367698479428
+OnlineBackup_Yes,0.0025214127925333625
+PaymentMethod_Bank transfer (automatic),0.0023038363652388497
+StreamingMovies_No internet service,0.0022695557484403647
+PaymentMethod_Credit card (automatic),0.0020416452237254122
+Dependents_Yes,0.001996542786368446
+InternetService_No,0.0018291972271372683
+PaymentMethod_Mailed check,0.0018090623560382505
+tenure_group_13-24,0.00168716532209229
+MultipleLines_No phone service,0.0015538327942334147
+Partner_Yes,0.0015386667307071354
+PhoneService_Yes,0.001399567298587719
+tenure_group_25-48,0.001349831707907773
+DeviceProtection_Yes,0.0010325141687214674
+TechSupport_No internet service,0.0010168200518323209
+StreamingTV_No internet service,0.000895935352452275

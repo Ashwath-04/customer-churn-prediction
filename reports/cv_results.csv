@@ -1,0 +1,6 @@
+model,key,imbalance_strategy,cv_roc_auc,cv_roc_auc_std,oof_f1_threshold,best_params,search_seconds
+Logistic Regression,logistic_regression,none,0.8461238650132847,0.011481574207727307,0.3627898250545899,{'C': 0.4205156450913872},1.5
+Decision Tree,decision_tree,smote,0.8197421116885988,0.006794705036825037,0.4851258581235698,"{'criterion': 'gini', 'max_depth': 5, 'min_samples_leaf': 7}",2.0
+Random Forest,random_forest,none,0.8478884136762843,0.010422065271760008,0.33264708180308666,"{'n_estimators': 300, 'min_samples_leaf': 8, 'max_features': 0.3, 'max_depth': 6}",17.0
+Gradient Boosting,gradient_boosting,none,0.8502302717071635,0.011045162610969538,0.31978293978100153,"{'learning_rate': 0.03203913722293047, 'max_depth': 3, 'min_samples_leaf': 30, 'n_estimators': 152, 'subsample': 0.85}",29.4
+XGBoost,xgboost,none,0.8508346258377688,0.011368862649841596,0.35150089859962463,"{'colsample_bytree': 0.6616014660103776, 'learning_rate': 0.047311003556264795, 'max_depth': 2, 'min_child_weight': 10, 'n_estimators': 212, 'reg_lambda': 0.1348293665742147, 'subsample': 0.7015661655737379}",5.4

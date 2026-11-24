@@ -1,0 +1,25 @@
+# Raw data: downloaded locally, not redistributed (see data/raw/README.md)
+data/raw/*.csv
+
+# Trained artefacts (regenerate with `python train.py`)
+models/*.joblib
+
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# --- Portfolio export policy: no datasets, no trained weights in git ---
+data/**
+!data/**/
+!data/**/README.md
+!data/**/.gitkeep
+models/*.joblib
+*.pt
+*.pth
+*.onnx
+*.npz
+mlflow.db
+.venv/
