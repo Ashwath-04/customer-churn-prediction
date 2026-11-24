@@ -1,5 +1,5 @@
-21:10:26 INFO Loading .\data\raw\WA_Fn-UseC_-Telco-Customer-Churn.csv
-21:10:26 INFO Validation report:
+00:59:50 INFO Loading .\data\raw\WA_Fn-UseC_-Telco-Customer-Churn.csv
+00:59:50 INFO Validation report:
 rows=7043, cols=21
 missing columns: none
 unexpected categorical values: none
@@ -8,30 +8,30 @@ blank TotalCharges strings: 11
 duplicate customerIDs: 0
 duplicate rows ignoring customerID: 22
 negative numeric values: none
-21:10:26 INFO Clean data: 7043 rows. TotalCharges blanks filled with 0 for tenure=0: 11
-21:10:26 INFO Class distribution: churn=1869 (26.5%), no churn=5174
-21:10:26 INFO Train 5634 rows, test 1409 rows
-21:10:26 INFO Imbalance experiment (5-fold CV on train, default threshold 0.5)
-21:10:28 INFO   logistic_regression  none         AUC=0.8460  recall=0.534  precision=0.665  (1.6s)
-21:10:29 INFO   logistic_regression  class_weight AUC=0.8458  recall=0.796  precision=0.519  (1.2s)
-21:10:31 INFO   logistic_regression  smote        AUC=0.8443  recall=0.787  precision=0.525  (1.8s)
-21:10:33 INFO   decision_tree        none         AUC=0.6540  recall=0.502  precision=0.483  (1.5s)
-21:10:34 INFO   decision_tree        class_weight AUC=0.6586  recall=0.493  precision=0.502  (1.4s)
-21:10:34 INFO   decision_tree        smote        AUC=0.6613  recall=0.518  precision=0.486  (0.5s)
-21:10:36 INFO   random_forest        none         AUC=0.8266  recall=0.482  precision=0.647  (1.3s)
-21:10:37 INFO   random_forest        class_weight AUC=0.8278  recall=0.654  precision=0.570  (1.4s)
-21:10:39 INFO   random_forest        smote        AUC=0.8235  recall=0.570  precision=0.595  (2.1s)
-21:10:40 INFO   gradient_boosting    none         AUC=0.8478  recall=0.532  precision=0.661  (0.9s)
-21:10:42 INFO   gradient_boosting    smote        AUC=0.8451  recall=0.658  precision=0.597  (1.6s)
-21:10:42 INFO   xgboost              none         AUC=0.8446  recall=0.520  precision=0.660  (0.5s)
-21:10:43 INFO   xgboost              class_weight AUC=0.8431  recall=0.775  precision=0.535  (0.5s)
-21:10:44 INFO   xgboost              smote        AUC=0.8416  recall=0.614  precision=0.608  (1.0s)
-21:10:45 INFO Tuned logistic_regression  strategy=none         CV AUC=0.8461 thr=0.363 (2s) {'clf__C': np.float64(0.4205156450913872)}
-21:10:47 INFO Tuned decision_tree        strategy=smote        CV AUC=0.8197 thr=0.485 (2s) {'clf__criterion': 'gini', 'clf__max_depth': 5, 'clf__min_samples_leaf': 7}
-21:11:04 INFO Tuned random_forest        strategy=none         CV AUC=0.8479 thr=0.333 (17s) {'clf__n_estimators': 300, 'clf__min_samples_leaf': 8, 'clf__max_features': 0.3, 'clf__max_depth': 6}
-21:11:34 INFO Tuned gradient_boosting    strategy=none         CV AUC=0.8502 thr=0.320 (29s) {'clf__learning_rate': np.float64(0.03203913722293047), 'clf__max_depth': 3, 'clf__min_samples_leaf': 30, 'clf__n_estimators': 152, 'clf__subsample': 0.85}
-21:11:39 INFO Tuned xgboost              strategy=none         CV AUC=0.8508 thr=0.352 (5s) {'clf__colsample_bytree': np.float64(0.6616014660103776), 'clf__learning_rate': np.float64(0.047311003556264795), 'clf__max_depth': 2, 'clf__min_child_weight': 10, 'clf__n_estimators': 212, 'clf__reg_lambda': np.float64(0.1348293665742147), 'clf__subsample': np.float64(0.7015661655737379)}
-21:11:39 INFO Selected model: xgboost (CV ROC-AUC 0.8508)
+00:59:50 INFO Clean data: 7043 rows. TotalCharges blanks filled with 0 for tenure=0: 11
+00:59:50 INFO Class distribution: churn=1869 (26.5%), no churn=5174
+00:59:50 INFO Train 5634 rows, test 1409 rows
+00:59:50 INFO Imbalance experiment (5-fold CV on train, default threshold 0.5)
+00:59:53 INFO   logistic_regression  none         AUC=0.8460  recall=0.534  precision=0.665  (2.7s)
+01:00:01 INFO   logistic_regression  class_weight AUC=0.8458  recall=0.796  precision=0.519  (7.8s)
+01:00:16 INFO   logistic_regression  smote        AUC=0.8443  recall=0.787  precision=0.525  (15.0s)
+01:00:30 INFO   decision_tree        none         AUC=0.6540  recall=0.502  precision=0.483  (13.8s)
+01:00:41 INFO   decision_tree        class_weight AUC=0.6586  recall=0.493  precision=0.502  (11.2s)
+01:00:45 INFO   decision_tree        smote        AUC=0.6613  recall=0.518  precision=0.486  (3.9s)
+01:00:53 INFO   random_forest        none         AUC=0.8266  recall=0.482  precision=0.647  (8.5s)
+01:01:02 INFO   random_forest        class_weight AUC=0.8278  recall=0.654  precision=0.570  (8.6s)
+01:01:16 INFO   random_forest        smote        AUC=0.8235  recall=0.570  precision=0.595  (14.7s)
+01:01:22 INFO   gradient_boosting    none         AUC=0.8478  recall=0.532  precision=0.661  (5.5s)
+01:01:33 INFO   gradient_boosting    smote        AUC=0.8451  recall=0.658  precision=0.597  (10.6s)
+01:01:34 INFO   xgboost              none         AUC=0.8446  recall=0.520  precision=0.660  (1.9s)
+01:01:37 INFO   xgboost              class_weight AUC=0.8431  recall=0.775  precision=0.535  (2.1s)
+01:01:43 INFO   xgboost              smote        AUC=0.8416  recall=0.614  precision=0.608  (6.1s)
+01:01:51 INFO Tuned logistic_regression  strategy=none         CV AUC=0.8461 thr=0.363 (8s) {'clf__C': np.float64(0.4205156450913872)}
+01:02:04 INFO Tuned decision_tree        strategy=smote        CV AUC=0.8197 thr=0.485 (13s) {'clf__criterion': 'gini', 'clf__max_depth': 5, 'clf__min_samples_leaf': 7}
+01:04:38 INFO Tuned random_forest        strategy=none         CV AUC=0.8479 thr=0.333 (154s) {'clf__n_estimators': 300, 'clf__min_samples_leaf': 8, 'clf__max_features': 0.3, 'clf__max_depth': 6}
+01:07:45 INFO Tuned gradient_boosting    strategy=none         CV AUC=0.8502 thr=0.320 (186s) {'clf__learning_rate': np.float64(0.03203913722293047), 'clf__max_depth': 3, 'clf__min_samples_leaf': 30, 'clf__n_estimators': 152, 'clf__subsample': 0.85}
+01:08:14 INFO Tuned xgboost              strategy=none         CV AUC=0.8508 thr=0.352 (29s) {'clf__colsample_bytree': np.float64(0.6616014660103776), 'clf__learning_rate': np.float64(0.047311003556264795), 'clf__max_depth': 2, 'clf__min_child_weight': 10, 'clf__n_estimators': 212, 'clf__reg_lambda': np.float64(0.1348293665742147), 'clf__subsample': np.float64(0.7015661655737379)}
+01:08:14 INFO Selected model: xgboost (CV ROC-AUC 0.8508)
 
 === Test metrics @ threshold 0.5 ===
                      Accuracy  Precision  Recall      F1  ROC-AUC
